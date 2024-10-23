@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>census</title>
+</head>
+<body>
+    <header id="home">
+        <h1>San Fernando</h1>
+        <p>Census form for San Fernando</p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#censuslist">Census List</a>
+            <a href="#contact">Contact</a>
+            <a href="#censusform">form</a>
+        </nav>
+    </header>
+
+    <section id="censusform">
+        <form id="census-form">
+            <!-- Purok Selection -->
+            <label for="purok">Purok:</label>
+            <select id="purok" required>
+                <option value="">-- Select Purok --</option>
+                <option value="Purok LINGLINGAY 1">Purok LINGLINGAY 1</option>
+                <option value="Purok LINGLINGAY 2">Purok LINGLINGAY 2</option>
+                <option value="Purok PAG ASA">Purok PAG ASA</option>
+                <option value="Purok SANIATA">Purok SANIATA</option>
+                <option value="Purok NALINAK">Purok NALINAK</option>
+                <option value="Purok SULINEK 1">Purok SULINEK 1</option>
+                <option value="Purok SULINEK 2">Purok SULINEK 2</option>
+                <option value="Purok RANG AY A">Purok RANG AY A</option>
+                <option value="Purok RANG AY B">Purok RANG AY B</option>
+            </select>
+    
+            <label for="water-source">Water Source:</label>
+            <input type="text" id="water-source" required>
+    
+            <label for="toilet-type">Toilet Type:</label>
+            <input type="text" id="toilet-type" required>
+    
+            <label for="garbage-disposal">Garbage Disposal:</label>
+            <input type="text" id="garbage-disposal" required>
+    
+            <label for="ethnicity">Ethnicity:</label>
+            <input type="text" id="ethnicity" required>
+    
+            <label for="religion">Religion:</label>
+            <input type="text" id="religion" required>
+    
+            <!-- Family Members -->
+        <fieldset>
+            <legend>Family Members</legend>
+            <div id="family-members">
+                
+                <!-- Initially empty; new members will be added here -->
+            </div>
+            <button type="button" id="add-member-btn">Add Another Family Member</button>
+        </fieldset>
+
+        <button type="submit">Submit Family Profile</button>
+    </form>
+    <script src="index.js"></script>
+    </section>
+
+</body>    
+</html>

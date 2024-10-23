@@ -1,0 +1,28 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(ss.webp);
+            background-blend-mode: color-dodge;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        header {
+            
+            color: #333;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header nav {
+            margin-top: 20px;
+        }
+        header nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        
